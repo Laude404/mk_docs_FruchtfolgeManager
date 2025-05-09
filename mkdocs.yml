@@ -1,0 +1,53 @@
+site_name: Fruchtfolge Manager
+site_url: https://Fruchtfolgemanager.example
+theme:
+  name: material
+  font:
+    text: Nunito Sans
+    code: JetBrains Mono
+  palette:
+    #Dark Mode 
+    - scheme: slate
+      toggle:
+        icon: material/weather-sunny
+        name: Dark mode
+      primary: green
+      accent: cyan
+    #Light Mode 
+    - scheme: default
+      toggle:
+        icon: material/weather-night
+        name: Light mode
+      primary: green
+      accent: indigo
+
+markdown_extensions:
+  - admonition
+  - attr_list
+  - pymdownx.superfences:
+        custom_fences:
+          - name: mermaid
+            class: mermaid
+            format: !!python/name:pymdownx.superfences.fence_code_format
+  - pymdownx.tabbed:
+      alternate_style: true
+      combine_header_slug: true
+
+nav:
+  - Startseite: index.md
+  - Projekt:
+      - Über das Projekt: projekt.md
+      - Über mich: ueber-mich.md
+      - Unterstützen: unterstuetzen.md
+  - Dokumentation:
+      - Übersicht: dokumentation/index.md
+      - 1. Pflanzenliste: dokumentation/pflanzenliste.md
+      - 2. Fruchtfolge: dokumentation/fruchtfolge.md
+      - 3. Fruchtfolge Verteilung: dokumentation/fruchtfolge-verteilung.md
+      - 4. Beetplanung: dokumentation/beetplanung.md
+      - Zyklus Tabelle: dokumentation/zyklustabelle.md
+  - Updates: 
+    - Übersicht: devlog/index.md
+    - Entwicklertagebuch: devlog/entwicklertagebuch.md
+    - Geplant: devlog/funktionen-geplant.md
+  - Umfrage: umfrage.md
