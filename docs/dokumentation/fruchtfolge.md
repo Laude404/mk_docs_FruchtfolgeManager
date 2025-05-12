@@ -2,9 +2,18 @@
 Aus den Pflanzen die Sie sich ausgesucht haben können in der Tabelle Fruchtfolgezyklen erstellt werden. Spezifische Konfigurationen liefern dabei unterschiedliche Fruchtfolgen.
 
 ---
-
 ## Inputleiste
 In der Inputleiste können Sie spezifische Optionen auswählen um Fruchtfolgen einfach und schnell zu erstellen.
+
+
+- [**Fruchtfolge automatisch/manuell**](#fruchtfolge-automatischmanuell)  
+ 
+- [**Zehrerlänge**](#zehrerlange) 
+
+- [**Pflanzenfamilie**](#pflanzenfamilie)
+
+- [**Detaillierte Beetverteilung**](#pflanzenfilter)  
+
 
 ### Fruchtfolge automatisch/manuell
 

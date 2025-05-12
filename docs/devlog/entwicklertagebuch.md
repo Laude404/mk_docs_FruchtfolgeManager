@@ -1,17 +1,22 @@
-# Beispiel 
-## 30-04-2015 – Erweiterung: Beetgröße & Mengenberechnung in der Beetplanung
+## 09-05-2025 – Neues UI-Styling: Farben, Struktur & visuelle Klarheit
+### **Kurzbeschreibung**
 
-###  **Kurzbeschreibung**  
-In der Beetplanung kann nun die Größe der einzelnen Beete erfasst werden. Daraus ergibt sich eine automatische Berechnung des Pflanzen- und Saatgutbedarfs.
+Die Anwendung hat ein durchgängiges visuelles Design erhalten. Farben, Abstände und Komponenten sind nun klar definiert und verleihen der App ein modernes, ruhiges und strukturiertes Erscheinungsbild.
+Details zur Umsetzung
 
-###  **Details zur Umsetzung**  
-- Länge und Breite jedes Beets können direkt im Beetplan eingetragen werden.
-- Basierend auf den hinterlegten Pflanzabständen wird die Anzahl Pflanzen pro Beet berechnet.
-- Für Direktsaat wird die Saatgutmenge geschätzt.
-- Die Funktion ist optional, kann aber zur besseren Saisonvorbereitung genutzt werden.
+- Einheitliches Farbschema  eingeführt.
 
-###  **Nutzen für die Nutzer*innen**  
-Diese Funktion unterstützt bei der Planung von Saatgutmengen, Voranzucht und Einkauf. So lässt sich effizienter wirtschaften und besser einschätzen, wie viel Platz und Material benötigt wird.
+- Optische Hierarchie zur besseren Orientierung: Sidebar, Hauptinhalte und interaktive Elemente (Buttons, Dropdowns) sind klar voneinander getrennt.
 
-###  **Geplante Weiterentwicklungen**  
-In Zukunft soll eine Exportfunktion folgen, um aus den berechneten Mengen eine Einkaufsliste oder Anzuchtplanung zu erstellen.
+- Hintergrundfarben und Borders sorgen für visuelle Tiefenstruktur.
+
+- Modular aufgebautes QSS-Styling ermöglicht zukünftige Anpassungen.
+
+## Nutzen für die Nutzer*innen
+
+Die neue Gestaltung verbessert Lesbarkeit, Orientierung und Bedienkomfort. Nutzer*innen können Informationen schneller erfassen und sich leichter in der App bewegen – besonders bei umfangreichen Planungen.
+Geplante Weiterentwicklungen
+
+- Hell/Dunkel-Modus
+- Verbesserte Kontraste für Barrierefreiheit
+- Visuelle Rückmeldungen für Eingaben und Validierungen (z. B. Fehlerhinweise bei falschen Eingaben)
