@@ -3,6 +3,8 @@ site_url: https://Fruchtfolgemanager.example
 theme:
   name: material
   custom_dir: overrides
+  logo: assets/images/Logo.png
+  favicon: assets/images/Logo_alphakanal.png
   font:
     text: Nunito Sans
     code: JetBrains Mono
