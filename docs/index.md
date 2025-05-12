@@ -11,8 +11,7 @@ Geplant ist außerdem die Möglichkeit, individuelle Gartenpläne als PDF zu exp
 Der Fruchtfolgemanager befindet sich aktuell in der Entwicklung. Trag dich gern ein oder schau bald wieder vorbei – und sei unter den Ersten, die ihre Gartenplanung damit einfacher, effizienter und erfolgreicher gestalten.
 
 !!! info "Mach mit und unterstütze das Projekt"
-    - **[Fragebogen ausfüllen](umfrage.md)** – Teile deine Erfahrungen und Bedürfnisse.
-    - **[Tester*in werden](#)** – Werde Tester*inn für dieses Projekt.
+    - **[Fragebogen ausfüllen, und Tester*inn werden](umfrage.md)** – Teile deine Erfahrungen und Bedürfnisse. Bekomme im Gegenzug Zugriff auf die Testversion, wenn sie erscheint.
     - **[Projekt unterstützen](unterstuetzen.md)** – Spende freiwillig zur um die Weiterentwicklung zu unterstützen.
 
     Vielen Dank für dein Interesse und deine Unterstützung.

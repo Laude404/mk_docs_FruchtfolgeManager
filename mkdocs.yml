@@ -2,6 +2,7 @@ site_name: Fruchtfolge Manager
 site_url: https://Fruchtfolgemanager.example
 theme:
   name: material
+  custom_dir: overrides
   font:
     text: Nunito Sans
     code: JetBrains Mono
@@ -51,3 +52,15 @@ nav:
     - Entwicklertagebuch: devlog/entwicklertagebuch.md
     - Geplant: devlog/funktionen-geplant.md
   - Umfrage: umfrage.md
+
+extra:
+  comments:
+    provider: giscus
+    giscus: 
+      repo: Laude404/mk_docs_FruchtfolgeManager
+      repo_id: R_kgDOOndb0g
+      category: Q&A
+      category_id: DIC_kwDOOndb0s4CqERG
+      mapping: pathname
+      reactions_enabled: 1
+      theme: dark

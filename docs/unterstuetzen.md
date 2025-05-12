@@ -1,3 +1,7 @@
+---
+comments: true
+---
+
 # Unterstützen
 
 Möchten sie zur  Weiterentwicklung des FruchtfolgeManagers beitragen?  
@@ -30,5 +34,4 @@ Du kannst mir jederzeit eine Mail schreiben an: [fruchtfolge.manager@gmail.com](
 ---
 
 ##  Kommentare
-
 
