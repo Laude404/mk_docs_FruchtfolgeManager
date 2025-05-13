@@ -53,6 +53,7 @@ nav:
     - Übersicht: devlog/index.md
     - Entwicklertagebuch: devlog/entwicklertagebuch.md
     - Geplant: devlog/funktionen-geplant.md
+    - Tool-Vorschau: devlog/tool-preview.md
   - Umfrage: umfrage.md
 
 extra:
