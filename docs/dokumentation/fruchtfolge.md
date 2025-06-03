@@ -3,46 +3,28 @@ Aus den Pflanzen die Sie sich ausgesucht haben können in der Tabelle Fruchtfolg
 
 ---
 ## Inputleiste
-In der Inputleiste können Sie spezifische Optionen auswählen um Fruchtfolgen einfach und schnell zu erstellen.
+In der Inputleiste lassen sich Fruchtfolgetabellen erstellen, löschen und speichern.
 
+Durch das drücken des Erstellen-Buttons in der Inputleiste wird ein Dialog ausgelöst in dem sie 
+spezifische Optionen auswählen, um ihre Fruchtfolge einfach und schnell zu erstellen.
 
-- [**Fruchtfolge automatisch/manuell**](#fruchtfolge-automatischmanuell)  
- 
+- [**Fruchtfolge Name**](#fruchtfolge-name)
+
 - [**Zehrerlänge**](#zehrerlange) 
 
 - [**Pflanzenfamilie**](#pflanzenfamilie)
 
-- [**Detaillierte Beetverteilung**](#pflanzenfilter)  
-
-
-### Fruchtfolge automatisch/manuell
-
-Hier wird festgelegt, ob ein kompletter Fruchtfolge-Zyklus automatisch generiert werden soll oder ob jede Folgefrucht manuell ausgewählt werden kann. 
-
-
-
-#### Automatische Fruchtfolge
-Generiert automatisch  alle  Fruchtfolgezyklen, die möglich sind. Die Fruchtfolgezyklen sind so aufgebaut, dass sie so immer wieder angebaut werden können.
-
-!!! info "Fruchtfolgeglieder"
-	Die Anzahl der Fruchtfolgeglieder richtet sich dabei nach der eingestellten [Zehrerlänge](#zehrerlange). 
-
-#### Manuelle Fruchtfolge
-Generiert nur ein Fruchtfolgezyklus. Die Folgefrucht kann sich immer wieder neu ausgesucht werden. Diese Einstellung garantiert dabei keine Zyklen die so immer wieder angebaut werden können. Die Anzahl der Fruchtfolgeglieder ist frei wählbar.
-
-!!! info "Auswahl pro Fruchtfolgeglied"
-	Die Einstellung der [Pflanzenfamilien](#pflanzenfamilie)-Regel steuert die Anzahl und Auswahl der Pflanzen pro Fruchtfolgeglied.
-
-### Eingabe
-
-Geben Sie  in das Eingabefeld  Gemüse  ein, die Sie gerne anbauen möchten oder die sich in der [Pflanzenliste](./pflanzenliste.md) befinden. Die  Autovervollstänigung schlägt  gleich Pflanzen vor, die in der Datenbank hinterlegt sind. 
-
-!!! tip "Planung beginnen"
-	Es ist zu empfehlen, mit der Eingabe der Starkzehrer anzufangen, da sie am wenigsten Spielraum bieten, und meißtens auch der Fokus sind.
+### Fruchtfolge Name
+Muss eingegeben werden um die Fruchtfolge sinnvoll darzustellen und  abzuspeichern.
+Es ist hilfreich  jede Tabelle einen einzigartigen Namen zu geben um im späteren planen die Handhabung zu erleichtern. 
 
 ### Zehrerlänge
 
-Diese bestimmt wie die Fruchtfolgelänge in Bezug auf die Zehrertypen die vertreten sind.  Und gibt dementsprechend die Folgefrüchte aus in der manuellen und der automatischen Fruchtfolgeerstellung.
+Diese bestimmt wie die Fruchtfolgelänge in Bezug auf die Zehrertypen die vertreten sind.  Und gibt dementsprechend die Folgefrüchte aus. 
+
+Im Dialog muss sich für ein Zehrertypzyklus entschieden werden da er die Grundlage für die Tabelle darstellt. 
+Zudem muss sich ein Startzehrertyp ausgesucht werden. Diese Auswahl hat Einfluss auf die [Startfrucht](#startfrucht).
+Es gibt zwei voreingestellte Zehrertypzyklen. 
 
 
 !!! info "Fruchtfolge-Schema"
@@ -65,7 +47,9 @@ Diese bestimmt wie die Fruchtfolgelänge in Bezug auf die Zehrertypen die vertre
 
 ### Pflanzenfamilie
 
-Bestimmt  welche Pflanzenfamilien als Folgefrucht erlaubt sind.
+Bestimmt  welche Pflanzenfamilien als Folgefrucht erlaubt sind. Es sind 2 Regelwerke dafür voreingestellt.
+
+Optional kann eine Startpflanzenfamilie eingestellt werden, was jedoch Auswirkungen auf die [Startfrucht](#startfrucht) hat.
 
 #### Einfache Pflanzenfamilien Auswahl
 Die Folgefrucht, kann von jeder  Pflanzenfamilie sein, ausser von der Vorfrucht. So werden nicht zwei gleiche Pflanzenfamilien hintereianander angebaut.
@@ -130,13 +114,19 @@ Folgefrüchte werden nach besonderen Schema ausgesucht. Dieses Schema wurde ver�
         graph LR
             A[Wasserblattgewächse]-->B[alle anderen Pflanzenfamilien] 
         ```
-### Pflanzenfilter
-Wenn die Checkbox aktiv ist, werden die erstellten Fruchtfolgen nach den Pflanzen gefiltert die in der [Pflanzenliste](pflanzenliste.md) sich befinden und auch gecheckt sind.
-Am besten geeignet für die [automatische](#automatische-fruchtfolge) Generierung von Fruchtfolgen.
 
+
+### Startfrucht
+
+Geben Sie  in das Eingabefeld  Gemüse  ein, die Sie gerne anbauen möchten oder die sich in der [Pflanzenliste](./pflanzenliste.md) befinden. Die  Autovervollstänigung schlägt  gleich Pflanzen vor, die in der Datenbank hinterlegt sind, dem Zehrertypzyklus und der Pflanzenfamilie entsprechen. 
+
+!!! tip "Planung beginnen"
+	Es ist zu empfehlen, mit der Eingabe der Starkzehrer anzufangen, da sie am wenigsten Spielraum bieten, und meißtens auch der Fokus sind.
 
 ## Tabelle
-Die Tabelle stellt alle Fruchtfolgen dar die mit den gewählten Optionen möglich sind. Fruchtfolgeglieder können teilweise mehrere Pflanzen beinhalten([Dropdown](#dropdown)). Die Fruchtfolgezyklen können gespeichert werden([Merken-Button](#merken)). 
+Die Tabelle wird erstellt nach den Einstellungen die im Dialog getroffen wurden.
+Dabei können sich nacheinander die Fruchtfolgeglieder über ein [Dropdown](#dropdown) ausgesucht werden. 
+Die Fruchtfolgezyklen können gespeichert werden, wenn sie in die [Checkbox](#checkbox) der Tabelle einen Haken setzen.. 
  
 
 !!! info "Erweiterung geplant"
@@ -145,8 +135,9 @@ Die Tabelle stellt alle Fruchtfolgen dar die mit den gewählten Optionen möglic
 ### Dropdown
 Hinter den Dropdown  verbergen sich alle Pflanzen die dort als Folgefrucht angebaut werden können. Da es von z.B Mittelzehrer/Gänsefußgewächs mehrere Vertreter gibt(Spinat, Rote Bete).
 
-### Merken
-Fruchtfolgezyklus kann gespeichert werden, unter Eingabe eines selbstgewählten Namens. Diese wird dann in der [Zyklustabelle](zyklustabelle.md) gespeichert.
+### Checkbox
+Mit setzen des Hakens in der Checkbox kann der Zyklus gespeichert werden.
+Diese wird dann in der [Zyklustabelle](zyklustabelle.md) gespeichert.
 
 
 ---

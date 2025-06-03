@@ -11,8 +11,6 @@ Geben Sie  in das Eingabefeld  Gemüse  ein, die Sie gerne anbauen möchten. Die
 ## Liste
 Durch das hinzufügen von Pflanzen zur Pflanzenliste werden diese dem Tab "Allgemein" hinzugefügt sowie in einen spezifischen  Zehrertyp-Tab. Somit behält man den Überblick über die Anzahl der Zehertypen die angebaut werden sollen. Dies ist wichtig für eine [optimale Planung](#optimale-planung).
 
-!!! info "Fruchtfolge Tabelle filtern"
-    Man kann die [Fruchtfolgetabelle](./fruchtfolge.md#pflanzenfilter) nach den Pflanzen filtern, die in der Pflanzenliste stehen. Dafür einfach einen Haken in die Checkbox setzten.
 	
 
 ## Optimale Planung
